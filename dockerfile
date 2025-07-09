@@ -26,7 +26,6 @@ ENV SHELL=bash
 RUN curl -fsSL https://get.pnpm.io/install.sh | bash -
 
 RUN pnpm setup 
-RUN pnpm add typescript -g
 
 FROM base 
 

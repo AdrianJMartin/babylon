@@ -4,10 +4,13 @@
 	"version": "2.0.0",
 	"tasks": [
 		{
-			"label": "start caddy",
-			"type": "shell",
-			"command": "caddy file-server -r ./server --listen :42000",
-			"problemMatcher": []
+			"label": "dev: vite",
+			"type": "npm",
+			"script": "dev",
+			"problemMatcher": [],
+			"presentation": {
+				"panel": "new",
+			}
 		}
 	]
 }
